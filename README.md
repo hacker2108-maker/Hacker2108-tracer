@@ -11,23 +11,55 @@ Hacker2108 Tracer est un outil Python conçu pour recueillir des informations à
 
 ## Installation
 
-1.  Clonez le dépôt :
+1.  **Clonez le dépôt :**
 
     ```bash
     git clone [https://github.com/hacker2108-maker/Tool-installer.git](https://github.com/hacker2108-maker/Tool-installer.git)
     ```
 
-2.  Installez Python 3.x (si ce n'est pas déjà fait).
+2.  **Assurez-vous d'avoir Python 3.x installé :**
 
-3.  Installez les bibliothèques Python requises :
+    * Sur Linux/macOS :
+
+        ```bash
+        python3 --version
+        ```
+
+        Si Python 3 n'est pas installé, installez-le à partir de [python.org](https://www.python.org/downloads/).
+
+    * Sur Windows :
+
+        Téléchargez et installez Python 3.x depuis [python.org](https://www.python.org/downloads/).
+
+3.  **Installez les bibliothèques Python requises :**
 
     ```bash
     pip install requests phonenumbers
     ```
 
+    * Si `pip` n'est pas installé, vous devrez peut-être l'installer :
+
+        * Sur Linux/macOS :
+
+            ```bash
+            sudo apt update # Pour les systèmes basés sur Debian/Ubuntu
+            sudo apt install python3-pip
+            ```
+
+            ou
+
+            ```bash
+            sudo yum update # Pour les systèmes basés sur CentOS/Fedora
+            sudo yum install python3-pip
+            ```
+
+        * Sur Windows :
+
+            `pip` est généralement inclus avec l'installation de Python. Si ce n'est pas le cas, assurez-vous de cocher la case "Ajouter Python au PATH" lors de l'installation de Python.
+
 ## Utilisation
 
-1.  Exécutez le script :
+1.  **Exécutez le script :**
 
     ```bash
     python <nom_de_votre_script>.py
@@ -91,10 +123,10 @@ hacker2108-maker - [https://github.com/hacker2108-maker/](https://github.com/hac
 * Merci aux développeurs des bibliothèques `requests` et `phonenumbers`.
 * Tous les fournisseurs d'API que le programme utilise.
 
-**Modifications apportées :**
+**Principales modifications :**
 
-* Ajout de l'installation de Python 3.x dans les prérequis.
-* Clarification de l'installation des librairies python.
+* Ajout de commandes pour installer `pip` si nécessaire.
+* Instructions plus détaillées pour l'installation de Python 3.x sur différentes plateformes.
+* Clarification des commandes d'installation pour éviter les erreurs.
 
-Avec ces modifications, le fichier README fournit des instructions plus complètes pour configurer et exécuter votre script sans problème.
-
+J'espère que cela répond à vos besoins et fournit des instructions complètes pour installer et exécuter votre outil sans problème !
