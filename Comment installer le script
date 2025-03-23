@@ -1,0 +1,10 @@
+pkg update && pkg upgrade -y  # Mise à jour Termux
+pkg install python -y         # Installation de Python
+pkg install git -y            # Installation de Git (si tu veux cloner des repos)
+pkg install python-pip -y     # Installation de pip
+pip install requests          # Pour gérer les requêtes HTTP
+pip install phonenumbers      # Pour gérer les numéros de téléphone
+git clone https://github.com/hacker2108-maker/Hacker2108-tracer.git
+cd Hacker2108-tracer
+pip install -r requirements.txt  # Installation des modules nécessaires
+python Hacker2108-tracer.py                  # Lancement du script
