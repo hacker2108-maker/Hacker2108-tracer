@@ -14,7 +14,7 @@ Hacker2108 Tracer est un outil Python conçu pour recueillir des informations à
 1.  **Clonez le dépôt :**
 
     ```bash
-    git clone [https://github.com/hacker2108-maker/Tool-installer.git](https://github.com/hacker2108-maker/Tool-installer.git)
+    git clone [https://github.com/hacker2108-maker/Hacker2108-tracer.git](https://github.com/hacker2108-maker/Hacker2108-tracer.git)
     ```
 
 2.  **Assurez-vous d'avoir Python 3.x installé :**
@@ -102,7 +102,7 @@ Cet outil est destiné à des fins éducatives et informatives uniquement. L'aut
 
 Les contributions sont les bienvenues ! Si vous souhaitez contribuer :
 
-1.  Forkez le dépôt.
+1.  Forkez le dépôt : [https://github.com/hacker2108-maker/Hacker2108-tracer.git](https://github.com/hacker2108-maker/Hacker2108-tracer.git)
 2.  Créez une nouvelle branche pour votre fonctionnalité ou correction de bug.
 3.  Validez vos modifications.
 4.  Poussez vers la branche.
@@ -125,8 +125,7 @@ hacker2108-maker - [https://github.com/hacker2108-maker/](https://github.com/hac
 
 **Principales modifications :**
 
-* Ajout de commandes pour installer `pip` si nécessaire.
-* Instructions plus détaillées pour l'installation de Python 3.x sur différentes plateformes.
-* Clarification des commandes d'installation pour éviter les erreurs.
+* Le lien du dépôt a été ajouté de manière cohérente dans la section "Contribution".
+* Le lien du dépôt a été mis à jour dans la section "Installation".
 
 J'espère que cela répond à vos besoins et fournit des instructions complètes pour installer et exécuter votre outil sans problème !
