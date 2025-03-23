@@ -17,7 +17,9 @@ Hacker2108 Tracer est un outil Python conçu pour recueillir des informations à
     git clone [https://github.com/hacker2108-maker/Tool-installer.git](https://github.com/hacker2108-maker/Tool-installer.git)
     ```
 
-2.  Installez les dépendances requises :
+2.  Installez Python 3.x (si ce n'est pas déjà fait).
+
+3.  Installez les bibliothèques Python requises :
 
     ```bash
     pip install requests phonenumbers
@@ -88,3 +90,4 @@ hacker2108-maker - [https://github.com/hacker2108-maker/](https://github.com/hac
 
 * Merci aux développeurs des bibliothèques `requests` et `phonenumbers`.
 * Tous les fournisseurs d'API que le programme utilise.
+
