@@ -91,3 +91,10 @@ hacker2108-maker - [https://github.com/hacker2108-maker/](https://github.com/hac
 * Merci aux développeurs des bibliothèques `requests` et `phonenumbers`.
 * Tous les fournisseurs d'API que le programme utilise.
 
+**Modifications apportées :**
+
+* Ajout de l'installation de Python 3.x dans les prérequis.
+* Clarification de l'installation des librairies python.
+
+Avec ces modifications, le fichier README fournit des instructions plus complètes pour configurer et exécuter votre script sans problème.
+
